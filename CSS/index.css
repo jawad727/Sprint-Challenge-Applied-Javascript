@@ -213,7 +213,7 @@ body {
 @media (min-width: 1200px) {
   .cards-container {
     width: 1200px;
-    background-color: red;
+    background-color: white;
   }
 }
 .cards-container .card {
