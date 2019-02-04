@@ -32,13 +32,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+It represents a webpage code so that we can change styles, and content without having to refresh the page (by adding or taking away HTML or CSS). It can be found in inspect element 
+
 2. What is an event?
+
+Events are part of the DOM and can trigger javascript code by using them in an event listener. For example 'click' 'scroll' 'dblclick' etc.
 
 3. What is an event listener?
 
+An event listener is placed on an element to listen for any events, once used they will trigger code to run which can change the html or css on the page. 
+Psudocode example: When button is clicked display: none; will be toggled off revealing a menu.
+
 4. Why would we convert a NodeList into an Array?
 
+So we can use array methods on it (by using Array.from)
+
 5. What is a component?
+
+A components refers to reusable HTML that can connect to its CSS through JS classes. This can be used to make a new tab, card, article, etc.. by simply copy pasting the HTML.
+I did this in the index.html file by copypasing a new 'javascript' tab and changing the content
 
 ### Git Set up
 
